@@ -4,7 +4,7 @@ body{
 
 nav{
   display: flex;
-  background: gray;
+  background: black;
 }
 
 nav>a{
@@ -40,12 +40,13 @@ nav>a{
 }
 
 .projects{
-  background-color: gray;
+  background-color: white;
   padding:50px;
 
 }
 
 footer{
   text-align: center;
-  background-color: powderblue;
+  background-color: #f1f1f1;
+  padding: 25px;
 }
