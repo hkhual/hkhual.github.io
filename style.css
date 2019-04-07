@@ -1,7 +1,27 @@
-
-footer{
-  text-align: center;
+body{
+  margin: auto 0;
 }
+
+nav{
+  display: flex;
+  background: gray;
+}
+
+nav>a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 15px;
+  }
+
+  /*Sticky Navigation style*/
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
 
 .about{
   padding: 25px;
@@ -12,4 +32,9 @@ footer{
   background-color: gray;
   padding:50px;
 
+}
+
+footer{
+  text-align: center;
+  background-color: powderblue;
 }
