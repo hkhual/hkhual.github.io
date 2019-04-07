@@ -21,6 +21,17 @@ nav>a{
     width: 100%;
   }
 
+  /*cover style*/
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+  }
+  .coverPicture{
+    width: 30rem;
+  }
+
 
 
 .about{
