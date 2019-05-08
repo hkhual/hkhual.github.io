@@ -14,10 +14,10 @@ nav>a{
   margin: 15px;
   }
 
-  a:hover{
+  /* a:hover{
     color: #000;
     background-color: #ccc;
-  }
+  } */
 
   /*Sticky Navigation style*/
   .sticky{
@@ -35,6 +35,10 @@ nav>a{
   }
   .coverPicture{
     width: 30rem;
+  }
+
+  img{
+    margin: 10px;
   }
 
 
