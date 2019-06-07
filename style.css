@@ -7,6 +7,13 @@ nav{
   background: black;
 }
 
+nav>a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.7em;
+  margin: 15px;
+  }
+
 /* Technologies section */
 .Technologies{
 background-color: #f3f9fd;
@@ -17,18 +24,6 @@ padding-right:30px;
 padding-bottom:20px;
 padding-left:30px;
 }
-
-nav>a{
-  color: white;
-  text-decoration: none;
-  font-size: 1.7em;
-  margin: 15px;
-  }
-
-  /* a:hover{
-    color: #000;
-    background-color: #ccc;
-  } */
 
   /*Sticky Navigation style*/
   .sticky{
@@ -63,6 +58,14 @@ nav>a{
   background-color: orange;
 
 }
+
+
+
+
+.container{
+  padding: 2px 16px;
+}
+
 
 footer{
   text-align: center;
