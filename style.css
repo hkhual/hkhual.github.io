@@ -46,9 +46,14 @@ nav>a{
 }
 
 .Card{
-  display: inline;
+  width: 35rem;
+  background-color: rgba(255, 255, 255, 0.29);
+  margin: 5rem 3rem;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  position: relative; 
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
-
 
 
 /* Technologies section */
