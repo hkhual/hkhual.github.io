@@ -20,6 +20,22 @@
               <h1>Portfolio</h1>
           </div>
 
+
+            <aside class="subscribe">
+              <i id="close" class="fa fa-times">
+              </i>
+              <h2>Stay up to date!</h2>
+              <button type="button" name="button">subscribe</button>
+            </aside>
+
+            <script type="text/javascript">
+              var close = document.querySelector('#close');
+              close.onclick = function(){
+                this.parentNode.style.display = 'none';
+              }
+            </script>
+
+
           <!--About Page Section-->
         <div id="about" class="about">
           <h2>About</h2>
@@ -50,12 +66,11 @@
 
               <div class="card">
                 <a href="https://github.com/hkhual/TrafficCam/">
-                  <img src="images/bootstrap.png" width="auto" height="auto" alt="React" />
+                  <img src="images/bootstrap.png" width="400px" height="400px" alt="React" />
                 </a>
                 <h4>React Native</h4>
                 <h5>JavaScript React Native Framework</h5>
               </div>
-  
 
           </div>
 
