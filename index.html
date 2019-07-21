@@ -16,26 +16,11 @@
             <a href="#projects">Projects</a>
         </nav>
       <main>
-          <div class="jumbotron text-center">
+          <div class="jumbotron text-center portfolio">
               <h1>Portfolio</h1>
           </div>
 
-
-            <aside class="subscribe">
-              <i id="close" class="fa fa-times">
-              </i>
-              <h2>Stay up to date!</h2>
-              <button type="button" name="button">subscribe</button>
-            </aside>
-
-            <script type="text/javascript">
-              var close = document.querySelector('#close');
-              close.onclick = function(){
-                this.parentNode.style.display = 'none';
-              }
-            </script>
-
-
+           
           <!--About Page Section-->
         <div id="about" class="about">
           <h2>About</h2>
@@ -47,34 +32,45 @@
 
           <!--Projects Section-->
           <div id="projects" class="projects">
-            <h2 style="line-height: 35.893px; text-align: center; padding-top: 15px;">Projects</h2>
+            <h2 style="line-height: 35.893px; text-align: center; padding-top: 15px; padding-bottom: 1em;">Projects</h2>
+              
+            <div class="row">
+              <div class="column">
               <div class="card">
-                  <a href="https://hkhual.github.io/robofriends/">
-                    <img src="images/robofriend.JPG" width="auto" height="auto" alt="robofriend" />
+                    <a href="https://hkhual.github.io/robofriends/">
+                      <img src="images/robofriend.JPG" width="100%" alt="Robofriend" />
+                    </a>
+                    <h4>React.js & Redux.js</h4>
+                      <h5>Web development</h5>
+                </div>
+              </div>
+
+              <div class="column">
+                <div class="card">
+                  <a href="https://github.com/hkhual/Android-App/">
+                    <img src="images/javascript.png" width="100%" alt="JavaScript"/>
                   </a>
-                  <h4>React.js & Redux.js</h4>
-                    <h5>Web development</h5>
+                  <h4>Android Development</h4>
+                  <h5>Android: Java and XML</h5>
+                </div>
               </div>
 
-              <div class="card">
-                <a href="https://github.com/hkhual/Android-App/">
-                  <img src="images/javascript.png" with="auto" height="auto" alt="Java" />
-                </a>
-                <h4>Android Development</h4>
-                <h5>Android: Java and XML</h5>
+              <div class="column">
+                <div class="card">
+                  <a href="https://github.com/hkhual/">
+                    <img src="images/bootstrap.png" width="100%" alt="Bootstrap"/>
+                  </a>
+                  <h4>Some text</h4>
+                  <h4>Some text</h4>
+                </div>
               </div>
 
-              <div class="card">
-                <a href="https://github.com/hkhual/TrafficCam/">
-                  <img src="images/bootstrap.png" width="400px" height="400px" alt="React" />
-                </a>
-                <h4>React Native</h4>
-                <h5>JavaScript React Native Framework</h5>
-              </div>
+          
 
+            </div>
           </div>
 
-          <button type="button" onclick="changeFont()">Try it</button>
+          <!-- <button type="button" onclick="changeFont()">Try it</button> -->
 
           <!--Technologies Section-->
           <div class="Technologies">
@@ -86,6 +82,7 @@
                 <img src="images/reactjs.png" width="80px" height="auto" alt="Reactjs" title="Reactjs"/>
                 <img src="images/redux.png" width="80px" height="auto" alt="Redux" title="Redux"/>
                 <img src="images/bootstrap.png" width="80px" height="auto" alt="Bootstrap" title="Bootstrap" />
+                <img src="images/Nodejs.svg" width="80px" height="auto" alt="Nodejs" title="Nodejs" />
               </div>
           </div>
 
@@ -94,7 +91,7 @@
           <p>&copy;
             <script>
               document.write(new Date().getFullYear())
-            </script> Hau Khual. All Rights Reserved.</p>
+            </script> by Hau Khual. All Rights Reserved.</p>
       </footer>
   </body>
 </html>

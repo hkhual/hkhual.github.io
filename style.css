@@ -1,5 +1,5 @@
 body{
-  margin: auto 0;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -31,6 +31,36 @@ nav>a{
     height: 40vh;
   }
 
+.portfolio {
+  background-color: #8D99AE;
+}
+
+/*float four columns side by side*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/*Remove extra left and right margins, due to padding*/
+.row {margin: 0 -5px;}
+
+/*Clear floats after the columns*/
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/*Responsive columns*/
+@media screen and (max-width: 600px){
+  .column{
+    width: 100%;
+    display: block;
+    margin-block: 20px;
+  }
+}
 .about{
   padding: 25px;
   background-color: powderblue;
@@ -46,12 +76,12 @@ nav>a{
 }
 
 .Card{
-  width: 35rem;
+  
   background-color: rgba(255, 255, 255, 0.29);
-  margin: 5rem 3rem;
+  padding: 16px;
+  text-align: center;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+
 }
 
 .Card img{
