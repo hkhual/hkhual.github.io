@@ -4,18 +4,20 @@
       <title>Hau Khual: Portfolio</title>
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Hau's Portfolio">
       <link rel="stylesheet" href="style.css">
       <!-- Bootstrap css stylesheet -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+    </head>
     <body>
         <nav class="sticky">
-            <a href="#">Home</a>
-            <a href="#about">about</a>
-            <a href="#projects">Projects</a>
+            <a href="#" style="text-decoration: none;">Home</a>
+            <a href="#about" style="text-decoration: none;">about</a>
+            <a href="#projects" style="text-decoration: none;">Projects</a>
         </nav>
+
       <main>
-          <div class="jumbotron text-center">
+          <div class="jumbotron text-center portfolio">
               <h1>Portfolio</h1>
           </div>
 
@@ -24,55 +26,67 @@
           <h2>About</h2>
             <div class="aboutme">
               <h3><span>Hello, my name is </span>Hau Khual<span>.</span>
-                 I am a full stack developer. I love budiling things from the ground up.</h3>
+                 I am a full stack developer. I love building things from the ground up.</h3>
             </div>
         </div>
 
           <!--Projects Section-->
           <div id="projects" class="projects">
-            <h2 style="line-height: 35.893px; text-align: center; padding-top: 15px;">Projects</h2>
-              <div class="card">
-                  <a href="https://hkhual.github.io/robofriends/">
-                    <img src="images/robofriend.JPG" width="auto" height="auto" alt="robofriend" />
-                  </a>
-                  <h4>React.js & Redux.js</h4>
-                    <h5>Web development</h5>
-              </div>
-
-              <div class="card">
-                <a href="https://github.com/hkhual/Android-App/">
-                  <img src="images/javascript.png" with="auto" height="auto" alt="Java" />
-                </a>
-                <h4>Android Development</h4>
-                <h5>Android: Java and XML</h5>
-              </div>
-
-
+            <h2 style="line-height: 35.893px; text-align: center; padding-top: 15px; padding-bottom: 1em;">Projects</h2>
               
+            <div class="row">
+              <div class="column">
+                <div class="card">
+                      <a href="https://hkhual.github.io/robofriends/">
+                        <img src="images/robofriend.JPG" width="70%" alt="Robofriend" />
+                      </a>
+                      <div class="image-text">
+                        <h4>React.js & Redux.js</h4>
+                        <h5>Web development</h5>
+                        <a href="https://hkhual.github.io/robofriends/">View Project</a>
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="column">
+                <div class="card">
+                  <a href="https://github.com/hkhual/Android-App/">
+                    <img src="images/Java.png" width="70%" alt="Java"/>
+                  </a>
+                  <h4>Android Development</h4>
+                  <h5>Android: Java and XML</h5>
+                  <a href="https://github.com/hkhual/Android-App/">Source Code</a>
+                </div>
+              </div>
 
           </div>
-
-   
 
           <!--Technologies Section-->
           <div class="Technologies">
                 <div style="text-align: center">
                   <h2 class="title-heading-center" data-fontsize="34" data-lineheight="40" style="font-size: 30.509px; line-height: 35.893px; padding-bottom: 15px;">language or framework use</h2>
-                <img src="images/html5.png" width="80px" height="auto" alt="HTML5" title="HTML5"/>
-                <img src="images/css3.png" width="80px" height="auto" alt="CSS3" title="CSS3"/>
-                <img src="images/javascript.png" width="80px" height="auto" alt="JavaScript" title="JavaScript"/>
-                <img src="images/reactjs.png" width="80px" height="auto" alt="Reactjs" title="Reactjs"/>
-                <img src="images/redux.png" width="80px" height="auto" alt="Redux" title="Redux"/>
-                <img src="images/bootstrap.png" width="80px" height="auto" alt="Bootstrap" title="Bootstrap" />
+                  <img src="images/html5.png" width="80px" height="auto" alt="HTML5" title="HTML5"/>
+                  <img src="images/css3.png" width="80px" height="auto" alt="CSS3" title="CSS3"/>
+                  <img src="images/javascript.png" width="80px" height="auto" alt="JavaScript" title="JavaScript"/>
+                  <img src="images/reactjs.png" width="80px" height="auto" alt="Reactjs" title="Reactjs"/>
+                  <img src="images/redux.png" width="80px" height="auto" alt="Redux" title="Redux"/>
+                  <img src="images/bootstrap.png" width="80px" height="auto" alt="Bootstrap" title="Bootstrap" />
+                  <img src="images/Nodejs.svg" width="80px" height="auto" alt="Nodejs" title="Nodejs" />
+                  <img src="images/Java.png" width="80px" height="auto" alt="Java" title="Java" />
               </div>
           </div>
 
         </main>
-      <footer>
-          <p>&copy;
-            <script>
-              document.write(new Date().getFullYear())
-            </script> Hau Khual. All Rights Reserved.</p>
-      </footer>
+        
+        <article>
+          <footer>
+              <p>&copy;
+                <script>
+                  document.write(new Date().getFullYear())
+                </script> by Hau Khual. All Rights Reserved.</p>
+          </footer>
+        </article>
+      <script src="script.js"></script>
   </body>
 </html>

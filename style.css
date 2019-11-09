@@ -1,7 +1,6 @@
 body{
-  margin: auto 0;
+ font-family: Arial, Helvetica, sans-serif;
 }
-
 
 nav{
   /* display: flex; */
@@ -15,12 +14,20 @@ nav>a{
   margin: 15px;
   }
 
+  nav>a:hover{
+    color: paleturquoise;
+  }
+
   /*Sticky Navigation style*/
   .sticky{
+    text-decoration: none;
     position: fixed;
     top: 0;
     width: 100%;
   }
+
+ 
+ 
 
   /*cover style*/
   .container{
@@ -30,6 +37,46 @@ nav>a{
     font-size: 4rem;
     height: 40vh;
   }
+
+.portfolio {
+  background-color: #8D99AE;
+}
+
+/*float four columns side by side*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+/*Remove extra left and right margins, due to padding*/
+.row {margin: 0 -5px;}
+
+/*Clear floats after the columns*/
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* @media screen and (min-width: 900px){
+  body{
+    background: url('./images/Java.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+} */
+
+
+/*Responsive columns*/
+@media screen and (max-width: 500px){
+  .column{
+    width: 100%;
+    display: block;
+    margin-block: 20px;
+  }
+}
 
 .about{
   padding: 25px;
@@ -45,19 +92,25 @@ nav>a{
   background-color: #f1f1f1;
 }
 
-.Card{
-  width: 35rem;
+.card{
+  
   background-color: rgba(255, 255, 255, 0.29);
-  margin: 5rem 3rem;
+  padding: 16px;
+  text-align: center;
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  transition: all 0.3s linear;
+
 }
 
-.Card img{
+.card img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
+}
+
+.card image-text{
+  text-align: center;
 }
 
 
