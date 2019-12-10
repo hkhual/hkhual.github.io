@@ -87,11 +87,11 @@ nav>a{
 
 .about{
   padding: 25px;
-  background-color: powderblue;
+  background-color: rgb(199, 220, 223);
 }
 
 .aboutme{
-  border: 5px solid yellow;
+  border: 5px solid rgb(252, 238, 178);
   text-align: center;
 }
 
