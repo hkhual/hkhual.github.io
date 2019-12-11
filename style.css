@@ -3,14 +3,6 @@ body{
  position: relative;
 }
 
-.portfolio{
-  background-image: url('/images/coding.jpg');
-  background-size: cover;
-  text-align: center;
-  font-size: 25px;
-  color: white;
-  
-}
 
 nav{
   /* display: flex; */
@@ -34,9 +26,30 @@ nav>a{
     position: fixed;
     top: 0;
     width: 100%;
+ 
+  }
+
+  .Nav-float-right{
+    float: right;
+    font-size: 1.7em;
+   
+  }
+
+  .Nav-float-right a{
+    color: white;
+    text-decoration: none;
   }
 
  
+  .portfolio{
+    background-image: url('/images/coding.jpg');
+    background-size: cover;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    color: white;
+    
+  }
  
 
   /*cover style*/
@@ -87,12 +100,13 @@ nav>a{
 
 .about{
   padding: 25px;
-  background-color: powderblue;
+  background-color: rgb(199, 220, 223);
 }
 
 .aboutme{
-  border: 5px solid yellow;
+  border: 5px solid rgb(252, 238, 178);
   text-align: center;
+  font-family: 'Kalam', cursive;
 }
 
 .projects{
