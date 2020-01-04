@@ -15,7 +15,7 @@ close.onclick = function(){
     this.parentNode.style.display = 'none';
 
     
-}
+};
 
 
 function myTime(){
