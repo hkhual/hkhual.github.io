@@ -81,23 +81,6 @@ nav>a{
 
 }
 
-/* @media screen and (min-width: 900px){
-  body{
-    background: url('./images/Java.png') no-repeat center center fixed;
-    background-size: cover;
-  }
-} */
-
-
-/*Responsive columns*/
-@media screen and (max-width: 500px){
-  .column{
-    width: 100%;
-    display: block;
-    margin-block: 20px;
-  }
-}
-
 .about{
   padding: 25px;
   background-color: rgb(199, 220, 223);
@@ -156,3 +139,36 @@ footer{
   padding: 25px;
 } 
  
+
+/* @media screen and (min-width: 900px){
+  body{
+    background: url('./images/Java.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+} */
+
+
+/*Responsive columns*/
+/* @media screen and (max-width: 500px){
+  .column{
+    width: 100%;
+    display: block;
+    margin-block: 20px;
+  }
+} */
+
+
+/*start of desktop styles */
+@media screen and (max-wdith: 991px){
+  /*start of large tablet styles */
+}
+
+
+@media screen and (max-width: 767px){
+  /* start of medium tablet styles*/
+}
+
+@media screen and (max-width: 479px){
+  /* start of phone styles */
+}
+
