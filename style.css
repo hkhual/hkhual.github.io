@@ -88,6 +88,10 @@ nav>a{
   background-color: rgb(199, 220, 223);
 }
 
+.about h2{
+  text-align: center;
+}
+
 .aboutme{
   border: 5px solid rgb(252, 238, 178);
   text-align: center;
@@ -95,8 +99,13 @@ nav>a{
 }
 
 .projects{
+  padding: 25px;
   background-color: #f1f1f1;
   
+}
+
+.projects h2{
+  text-align: center;
 }
 
 .card{
@@ -143,26 +152,10 @@ footer{
   background-color: #646363;
   color:white;
   padding-top: 15px;
-  /* padding: 30px; */
+
 } 
  
 
-/* @media screen and (min-width: 900px){
-  body{
-    background: url('./images/Java.png') no-repeat center center fixed;
-    background-size: cover;
-  }
-} */
-
-
-/*Responsive columns*/
-/* @media screen and (max-width: 500px){
-  .column{
-    width: 100%;
-    display: block;
-    margin-block: 20px;
-  }
-} */
 
 
 /*start of desktop styles */
@@ -176,6 +169,24 @@ footer{
 }
 
 @media screen and (max-width: 479px){
-  /* start of phone styles */
+    /*float four columns side by side*/
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  /*Remove extra left and right margins, due to padding*/
+  .row {margin: 0 -5px;}
+
+  /*Clear floats after the columns*/
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+
+  }
 }
 
