@@ -156,8 +156,6 @@ footer{
 } 
  
 
-
-
 /*start of desktop styles */
 @media screen and (max-wdith: 991px){
   /*start of large tablet styles */
@@ -170,23 +168,35 @@ footer{
 
 @media screen and (max-width: 479px){
     /*float four columns side by side*/
-  .column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-    margin-top: 10px;
-    margin-left: 30px;
+
+  .card{
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s linear;
+    padding: 100px;
+  
   }
 
-  /*Remove extra left and right margins, due to padding*/
-  .row {margin: 0 -5px;}
+  .row{
+    width: 15%;
+  }
+
+
+  
+.card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+  
 
   /*Clear floats after the columns*/
-  .row:after{
+  /* .row:after{
     content: "";
     display: table;
-    clear: both;
+    clear: both; */
 
-  }
+  /* } */ */
+
 }
-
