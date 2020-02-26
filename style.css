@@ -3,7 +3,6 @@ body{
  position: relative;
 }
 
-
 nav{
   /* display: flex; */
   background: black;
@@ -126,10 +125,10 @@ nav>a{
   background: white;
 }
 
-.card image-text{
+/* .card image-text{
   text-align: center;
   background: white;
-}
+} */
 
 
 /* Technologies section */
@@ -154,49 +153,61 @@ footer{
   padding-top: 15px;
 
 } 
+
+/*screen less than 1200px*/
+@media only screen and (max-width: 1200px){
+
+}
  
 
 /*start of desktop styles */
-@media screen and (max-wdith: 991px){
+@media screen and (max-wdith: 990px){
   /*start of large tablet styles */
 }
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 600px){
   /* start of medium tablet styles*/
 }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 450px){
     /*float four columns side by side*/
+
+
+    .portfolio{
+      background-image: url('/images/coding.jpg');
+      background-size: cover;
+      text-align: center;
+      font-family: 'Indie Flower', cursive;      
+    }
 
   .card{
     display: inline-block;
-    text-align: center;
-    transition: all 0.3s linear;
-    padding: 100px;
+    /* text-align: center; */
+    /* transition: all 0.3s linear; */
+    padding: 90px;
   
   }
 
   .row{
-    width: 15%;
+    width: 10%;
   }
 
 
   
 .card img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width:200%;
   background: white;
 }
   
 
   /*Clear floats after the columns*/
-  /* .row:after{
+  .row:after{
     content: "";
     display: table;
-    clear: both; */
+    clear: both; 
 
-  /* } */ */
+   } 
 
 }
