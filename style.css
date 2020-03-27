@@ -7,6 +7,8 @@ nav{
   /* display: flex; */
   background: black;
   padding: 0.5%;
+  font-family: sans-serif, cursive;
+
 }
 
 nav>a{
