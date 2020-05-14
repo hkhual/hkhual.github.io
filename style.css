@@ -156,6 +156,11 @@ footer{
 
 } 
 
+footer p:last-child{
+  color: white;
+  text-decoration: none;
+}
+
 /*screen less than 1200px*/
 @media only screen and (max-width: 1200px){
 
