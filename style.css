@@ -161,6 +161,11 @@ footer p:last-child{
   text-decoration: none;
 }
 
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
 /*screen less than 1200px*/
 @media only screen and (max-width: 1200px){
 
