@@ -50,7 +50,8 @@ nav>a{
     font-family: 'Indie Flower', cursive;
     font-size: 3em;
     color: white;
-    
+    padding-top:2px;
+    padding-bottom: 2px;
   }
  
 
@@ -153,12 +154,16 @@ footer{
   background-color: #646363;
   color:white;
   padding-top: 15px;
+  padding-bottom: 5px;
 
 } 
 
+footer > p > a{
+  text-decoration: none;
+}
+
 footer p:last-child{
   color: white;
-  text-decoration: none;
 }
 
 /*screen less than 1200px*/
