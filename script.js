@@ -1,9 +1,10 @@
 
-function myFunction(a, b){
-    return a + b;
+function myPopUp(){
+    let pop = document.getElementsByTagName('button').innerHTML;
+    pop += alert("You clicked me");
+
 }
 
-console.log(myFunction(35,34));
 
 
 function changeFont(){
@@ -12,9 +13,7 @@ function changeFont(){
 
 var close = document.querySelector('#close');
 close.onclick = function(){
-    this.parentNode.style.display = 'none';
-
-    
+    this.parentNode.style.display = 'none';   
 };
 
 
