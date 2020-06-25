@@ -83,38 +83,7 @@ nav>a{
     font-family: 'Indie Flower', cursive;
     font-size: 5em;
     color: #fff;
-   
   }
-
-  /*cover style*/
-  .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 4rem;
-    height: 40vh;
-  }
-
-
-/*float four columns side by side*/
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-  margin-top: 10px;
-  margin-left: 30px;
-}
-
-/*Remove extra left and right margins, due to padding*/
-.row {margin: 0 -5px;}
-
-/*Clear floats after the columns*/
-.row:after{
-  content: "";
-  display: table;
-  clear: both;
-
-}
 
 .about{
   padding: 25px;
@@ -137,37 +106,9 @@ nav>a{
   
 }
 
-.projects h2{
+#projects h2{
   text-align: center;
 }
-
-.card{
-  
-  /* background-color: rgba(255, 255, 255, 0.29); */
-  background-color: white;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-  transition: all 0.3s linear;
-
-}
-
-.card img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: white;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border: dashed;
-  
-}
-
-/* .card image-text{
-  text-align: center;
-  background: white;
-} */
-
 
 /* Technologies section */
 .Technologies{
@@ -211,7 +152,6 @@ footer a{
 
 }
  
-
 /*start of desktop styles */
 @media screen and (max-wdith: 990px){
   /*start of large tablet styles */
@@ -224,42 +164,10 @@ footer a{
 
 @media screen and (max-width: 450px){
     /*float four columns side by side*/
-
-
     .portfolio{
       background-image: url('/images/coding.jpg');
       background-size: cover;
       text-align: center;
       font-family: 'Indie Flower', cursive;      
     }
-
-  .card{
-    display: inline-block;
-    /* text-align: center; */
-    /* transition: all 0.3s linear; */
-    padding: 90px;
-  
-  }
-
-  .row{
-    width: 10%;
-  }
-
-
-  
-.card img{
-  display: block;
-  width:200%;
-  background: white;
-}
-  
-
-  /*Clear floats after the columns*/
-  .row:after{
-    content: "";
-    display: table;
-    clear: both; 
-
-   } 
-
 }
