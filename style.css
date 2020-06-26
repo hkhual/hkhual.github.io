@@ -165,7 +165,7 @@ footer a{
 @media screen and (max-width: 450px){
     /*float four columns side by side*/
     .portfolio{
-      background-image: url('/images/coding.jpg');
+      background-image: url('./images/coding.jpg');
       background-size: cover;
       text-align: center;
       font-family: 'Indie Flower', cursive;      
